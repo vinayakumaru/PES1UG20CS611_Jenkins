@@ -13,8 +13,8 @@ pipeline {
     	}
     	stage('Deploy') {
         	steps {
-            	sh 'cat test.cpp'
-            	//error 'Pipeline Failed'
+            	// sh 'cat test.cpp'
+            	error 'Pipeline Failed'
         	}
     	}
 	}
